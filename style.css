@@ -1,0 +1,319 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+}
+.top-header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px 0 20px;
+    background-color: #2980b9;
+    color: #fff;
+}
+.l-top p
+{   
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+.r-top
+{   
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+}
+.r-top p
+{
+    margin-right: 18px;
+}
+.r-top i
+{
+    margin-right: 5px;
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+
+}
+.logo a
+{
+    font-size: 30px;
+    text-decoration: none;   
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+nav ul li
+{
+    padding: 10px 20px;
+}
+nav ul li a
+{
+    text-decoration: none;
+}
+
+.banner
+{
+    background: linear-gradient(rgba(41, 128, 185,0.6),rgba(41, 128, 185,0.6)) ,url(img/banner.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: right bottom;
+}
+.banner-text
+{
+    padding-top: 140px;
+    padding-left: 100px;
+    color: #fff;
+}
+.banner h1
+{
+
+   font-size: 50px;
+   font-weight: 900;
+}
+.banner p
+{
+    width: 50%;
+    text-align: justify;
+    font-size: 18px;
+}
+.btn-1
+{
+    padding: 10px 25px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+}
+.services
+{
+    margin-top: 100px;
+}
+.services h2
+{
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.services .inner-col
+{
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+    padding: 10px 0;
+    border-right: 1px solid #2980b9;
+    border-bottom: 1px solid #2980b9;
+}
+.col-text
+{
+    margin-left: 15px;
+}
+.col-text h3
+{
+    font-weight: 900;
+    font-size: 30px;
+    color: rgba(44, 62, 80,1.0);
+}
+.col-text span
+{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.application
+{
+    margin-top: 100px;
+}
+.application h2
+{
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.inner-app
+{
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    border-right: 1px solid #2980b9;
+    border-bottom: 1px solid #2980b9;
+}
+.inner-app:hover
+
+{
+    transform: translateY(-8px);
+    transition: 0.4s;
+}
+.inner-app span
+{
+    font-size: 35px;
+    background-color: rgba(41, 128, 185,1.0);
+    color: #fff;
+    padding: 10px 23px;
+    border-radius: 50%;
+}
+.inner-app h3
+{
+    color: #2980b9;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 25px;
+
+}
+.inner-app p
+{
+    text-align: justify;
+    font-size: 16px;
+    color: rgba(44, 62, 80,1.0);
+
+}
+
+
+.contact
+{
+    margin-top: 70px;
+}
+.contact h2
+{
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.inner-contact
+{
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    border-right: 1px solid #2980b9;
+    border-bottom: 1px solid #2980b9;
+
+}
+.inner-contact:hover
+
+{
+    transform: translateY(-8px);
+    transition: 0.4s;
+}
+.inner-contact i
+{
+    font-size: 35px;
+}
+.inner-contact h3
+{
+    color: #2980b9;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.inner-contact p
+{
+    font-size: 20px;
+}
+.loan-types
+{
+    margin-top: 60px;
+}
+.loan-types .loans
+{
+    margin-bottom: 20px;
+}
+.loan-types h2
+{
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.loan-types .btn-2
+{
+    padding: 10px 60px;
+    font-size: 18px;
+    font-weight: 900;
+    margin-left: 560px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer
+{
+    background-color: #2980b9;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media (max-width: 370px) {
+
+    .top-header
+{ 
+    padding: 15px 12px 0 12px;
+}
+.l-top p
+{   
+    font-size: 12px;
+}
+.r-top
+{   
+    font-size: 8px;
+    display: flex;
+}
+.r-top p
+{
+    margin-right: 8px;
+}
+.r-top i
+{
+    margin-right:   2px;
+}
+.logo a
+{
+    font-size: 20px;
+}
+nav ul li
+{
+    padding: 5px 10px;
+}
+nav ul li a
+{
+    font-size: 12px;
+}
+.banner
+{
+    height: 70vh;
+}
+.banner-text
+{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.banner h1
+{
+
+   font-size: 20px;
+   font-weight: 900;
+}
+.banner p
+{
+    width: 80%;
+    font-size: 10px;
+}
+.loan-types .btn-2
+{
+    margin-left: 100px;
+}
+}
